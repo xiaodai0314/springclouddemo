@@ -1,0 +1,21 @@
+<instance>
+    <instanceId>xiaodai:rest-api-test:9000</instanceId>
+    <hostName>xiaodai</hostName>
+    <app>REST-API-TEST</app>
+    <ipAddr>discovery-eureka</ipAddr>
+    <vipAddress>rest-api-test</vipAddress>
+    <secureVipAddress>rest-api-test</secureVipAddress>
+    <status>UP</status>
+    <port enabled="true">9000</port>
+    <securePort enabled="false">443</securePort>
+    <homePageUrl>http://discovery-eureka:9000</homePageUrl>
+    <statusPageUrl>http://discovery-eureka:9000</statusPageUrl>
+    <healthCheckUrl>http://discovery-eureka:9000</healthCheckUrl>
+    <dataCenterInfo class="com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo">
+        <name>MyOwn</name>
+    </dataCenterInfo>
+</instance>
+<!--注册-->
+<!-- cat ./rest-api-text.xml | curl -v -X POST -H "Content-type: application/xml" -d @- http://admin:admin@discovery:8000/eureka/apps/rest-api-test -->
+<!--注销-->
+<!-- curl -v -X DELETE http://admin:admin@discovery:8000/eureka/apps/rest-api-test/xiaodai:ret-api-test:9000 -->

@@ -1,0 +1,15 @@
+server:
+  port: 8050
+eureka:
+  client:
+    service-url:
+      defaultZone: http://admin:admin@discovery:8000/eureka
+  instance:
+    prefer-ip-address: true
+spring:
+  application:
+    name: file-upload
+  http:
+    multipart:
+      max-file-size: 200Mb
+      max-request-size: 2500Mb

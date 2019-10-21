@@ -1,0 +1,32 @@
+server:
+  port: 8000
+eureka:
+  instance:
+    prefer-ip-address: true
+    hostname: discovery
+  client:
+    healthcheck:
+      enabled: true
+    #是否将自己注册到Eureka Server
+    register-with-eureka: false
+    #是否从Eureka Server获取注册信息
+    fetch-registry: false
+    service-url:
+      #多个地址使用,分隔
+      defaultZone: http://admin:admin@${eureka.instance.hostname}:8000/eureka
+security:
+  basic:
+    enabled: false
+  user:
+    name: admin
+    password: admin
+
+#忽略网卡设定
+spring:
+  cloud:
+    inetutils:
+      ignored-interfaces:
+        - docker0
+        - veth.*
+#只使用站点本地地址
+#      use-only-site-local-interfaces: true

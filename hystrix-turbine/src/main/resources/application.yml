@@ -1,0 +1,14 @@
+server:
+  port: 8070
+spring:
+  application:
+    name: hystrix-turbine
+eureka:
+  client:
+    service-url:
+      defaultZone: http://admin:admin@discovery:8000/eureka
+  instance:
+    prefer-ip-address: true
+turbine:
+  app-config: consume-movie,consume-movie-ribbon
+  cluster-name-expression: "'default'"

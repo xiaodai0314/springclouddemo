@@ -1,0 +1,8 @@
+server:
+  port: 8091
+spring:
+  application:
+    name: consumer-movie
+provider-user:
+  ribbon:
+    listOfServers: discovery-eureka:8080, discovery-eureka:8081

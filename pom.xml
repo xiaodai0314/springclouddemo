@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.5.9.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+    <groupId>org.xiaodai</groupId>
+    <artifactId>spring-cloud-demo</artifactId>
+    <version>0.0.1</version>
+    <name>spring-cloud-demo</name>
+    <packaging>pom</packaging>
+
+    <description>Demo project for Spring Boot</description>
+
+    <modules>
+        <module>provider-user</module>
+        <module>consumer-movie</module>
+        <module>discovery-eureka</module>
+        <module>discovery-eureka-ha</module>
+        <module>consumer-movie-ribbon</module>
+        <module>consumer-movie-ribbon-without-eureka</module>
+        <module>consumer-movie-feign</module>
+        <module>provider-user-nologin</module>
+        <module>hystrix-turbine</module>
+        <module>gateway-zuul</module>
+        <module>file-upload</module>
+    </modules>
+
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
+</project>

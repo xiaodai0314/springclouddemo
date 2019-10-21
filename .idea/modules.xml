@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/consumer-movie/consumer-movie.iml" filepath="$PROJECT_DIR$/consumer-movie/consumer-movie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consumer-movie-feign/consumer-movie-feign.iml" filepath="$PROJECT_DIR$/consumer-movie-feign/consumer-movie-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consumer-movie-ribbon/consumer-movie-ribbon.iml" filepath="$PROJECT_DIR$/consumer-movie-ribbon/consumer-movie-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consumer-movie-ribbon-without-eureka/consumer-movie-ribbon-without-eureka.iml" filepath="$PROJECT_DIR$/consumer-movie-ribbon-without-eureka/consumer-movie-ribbon-without-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/discovery-eureka/discovery-eureka.iml" filepath="$PROJECT_DIR$/discovery-eureka/discovery-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/discovery-eureka-ha/discovery-eureka-ha.iml" filepath="$PROJECT_DIR$/discovery-eureka-ha/discovery-eureka-ha.iml" />
+      <module fileurl="file://$PROJECT_DIR$/file-upload/file-upload.iml" filepath="$PROJECT_DIR$/file-upload/file-upload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway-zuul/gateway-zuul.iml" filepath="$PROJECT_DIR$/gateway-zuul/gateway-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hystrix-turbine/hystrix-turbine.iml" filepath="$PROJECT_DIR$/hystrix-turbine/hystrix-turbine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/provider-user/provider-user.iml" filepath="$PROJECT_DIR$/provider-user/provider-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/provider-user-nologin/provider-user-nologin.iml" filepath="$PROJECT_DIR$/provider-user-nologin/provider-user-nologin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-demo.iml" filepath="$PROJECT_DIR$/spring-cloud-demo.iml" />
+    </modules>
+  </component>
+</project>

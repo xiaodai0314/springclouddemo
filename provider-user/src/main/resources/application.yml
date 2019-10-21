@@ -1,0 +1,51 @@
+server:
+  port: 8080
+spring:
+  devtools:
+    remote:
+      restart:
+        enabled: false
+  jpa:
+    generate-ddl: false
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://39.105.203.110:3306/springcloud?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: mysqlali
+
+  #注册Eureka
+  application:
+    name: provider-user
+eureka:
+  client:
+    healthcheck:
+      enabled: true
+    service-url:
+      defaultZone: http://admin:admin@discovery:8000/eureka
+  instance:
+    prefer-ip-address: true
+    metadata-map:
+      my-metadata: user
+
+logging:
+  level:
+    root: INFO
+    org.hibernate: INFO
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+    org.hibernate.type.descriptor.sql.BasicExtractor: TRACE
+    org.springframework.security: INFO
+#Actuator 健康检查详情
+management:
+  security:
+    enabled: true
+
+info:
+  app:
+    name: @project.artifactId@
+    encoding: @project.build.sourceEncoding@
+    java:
+      source: @java.version@
+      target: @java.version@

@@ -1,0 +1,37 @@
+server:
+  port: 8001
+eureka:
+  client:
+    #是否将自己注册到Eureka Server
+    register-with-eureka: false
+    #是否从Eureka Server获取注册信息
+    fetch-registry: false
+    service-url:
+      #多个地址使用,分隔
+      defaultZone: http://discovery-eureka:8080/eureka
+spring:
+  application:
+    name: microservie-discovery-eureka-ha
+---
+spring:
+  profiles: peer1
+server:
+  port: 8000
+eureka:
+  instance:
+    hostname: peer1
+  client:
+    service-url:
+      defaultZone: http://peer2:8001/eureka/
+---
+spring:
+  profiles: peer2
+server:
+  port: 8001
+eureka:
+  instance:
+    hostname: peer2
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://peer1:8000/erueka/

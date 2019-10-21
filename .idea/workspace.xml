@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6f09b63c-cdff-43fc-b533-e9c9053ead7d" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/consumer-movie-ribbon/src/main/java/org/xiaodai/consumermovie/controller/MovieController.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="1SP2gMJfyMkrY2yMZjmm9G0ZoUV" />
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2120766" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.xiaodai.consumermovie.controller" />
+      <recent name="org.xiaodai.discoveryeureka.config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/consumer-movie-ribbon/src/main/java/org/xiaodai/consumermovie" />
+      <recent name="$PROJECT_DIR$/provider-user/src/main/resources" />
+      <recent name="$PROJECT_DIR$/discovery-eureka-ha/src/main/resources" />
+      <recent name="$PROJECT_DIR$/discovery-eureka/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean package docker:build" />
+      <command value="mvn clean package discover-eureka docker:build" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.DiscoveryEurekaApplication">
+    <configuration name="ConsumerMovieRibbonApplication#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/ConsumerMovieRibbonApplication.http">
+      <method v="2" />
+    </configuration>
+    <configuration name="ConsumerMovieApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="consumer-movie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.xiaodai.consumermovie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.xiaodai.consumermovie" />
+      <option name="MAIN_CLASS_NAME" value="org.xiaodai.consumermovie.ConsumerMovieApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerMovieApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="consumer-movie" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.xiaodai.consumermovie.ConsumerMovieApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerMovieFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="consumer-movie-feign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.xiaodai.consumermovie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.xiaodai.consumermovie.ConsumerMovieFeignApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerMovieRibbonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="consumer-movie-ribbon" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.xiaodai.consumermovie.ConsumerMovieRibbonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerMovieRibbonWithoutEurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="consumer-movie-ribbon-without-eureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.xiaodai.consumermovie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.xiaodai.consumermovie.ConsumerMovieRibbonWithoutEurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiscoveryEurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="discovery-eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.xiaodai.discoveryeureka.DiscoveryEurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiscoveryEurekaHaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="discovery-eureka-ha" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.xiaodai.discoveryeureka.DiscoveryEurekaHaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileUploadApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="file-upload" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.xiaodai.fileupload.FileUploadApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gateway-zuul" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaodai.gatewayzuul.GatewayZuulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HystrixTurbineApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hystrix-turbine" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.xiaodai.hystrixturbine.HystrixTurbineApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProviderUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+      <module name="provider-user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.xiaodai.provideruser.ProviderUserApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProviderUserNologinApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" temporary="true" nameIsGenerated="true">
+      <module name="provider-user-nologin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.xiaodai.provideruser.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.xiaodai.provideruser.ProviderUserNologinApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="HTTP Request.ConsumerMovieRibbonApplication#1" />
+      <item itemvalue="JUnit.ConsumerMovieApplicationTests.contextLoads" />
+      <item itemvalue="Spring Boot.ConsumerMovieApplication" />
+      <item itemvalue="Spring Boot.ConsumerMovieRibbonApplication" />
+      <item itemvalue="Spring Boot.DiscoveryEurekaApplication" />
+      <item itemvalue="Spring Boot.ProviderUserApplication" />
+      <item itemvalue="Spring Boot.DiscoveryEurekaHaApplication" />
+      <item itemvalue="Spring Boot.HystrixTurbineApplication" />
+      <item itemvalue="Spring Boot.GatewayZuulApplication" />
+      <item itemvalue="Spring Boot.FileUploadApplication" />
+      <item itemvalue="Spring Boot.ConsumerMovieRibbonWithoutEurekaApplication" />
+      <item itemvalue="Spring Boot.ConsumerMovieFeignApplication" />
+      <item itemvalue="Spring Boot.ProviderUserNologinApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ProviderUserNologinApplication" />
+        <item itemvalue="Spring Boot.ConsumerMovieFeignApplication" />
+        <item itemvalue="HTTP Request.ConsumerMovieRibbonApplication#1" />
+        <item itemvalue="JUnit.ConsumerMovieApplicationTests.contextLoads" />
+        <item itemvalue="Spring Boot.ConsumerMovieRibbonWithoutEurekaApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6f09b63c-cdff-43fc-b533-e9c9053ead7d" name="Default Changelist" comment="" />
+      <created>1570863173893</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570863173893</updated>
+      <workItem from="1570863189432" duration="1765000" />
+      <workItem from="1570865021319" duration="400000" />
+      <workItem from="1570865444735" duration="19895000" />
+      <workItem from="1571040823720" duration="66545000" />
+      <workItem from="1571450763336" duration="36000" />
+      <workItem from="1571450826042" duration="136000" />
+      <workItem from="1571451025678" duration="84000" />
+      <workItem from="1571451120848" duration="11907000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ProviderUserApplicationTests_contextLoads - 2019.10.12 at 15h 11m 58s.xml">
+      <configuration name="ProviderUserApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProviderUserApplicationTests_contextLoads - 2019.10.12 at 15h 12m 55s.xml">
+      <configuration name="ProviderUserApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProviderUserApplicationTests_contextLoads - 2019.10.12 at 15h 14m 45s.xml">
+      <configuration name="ProviderUserApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConsumerMovieApplicationTests_contextLoads - 2019.10.15 at 08h 53m 46s.xml">
+      <configuration name="ConsumerMovieApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConsumerMovieApplicationTests_contextLoads - 2019.10.15 at 08h 54m 20s.xml">
+      <configuration name="ConsumerMovieApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>file-upload</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2120766" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

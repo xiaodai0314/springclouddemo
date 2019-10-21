@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="consumer-movie" />
+        <module name="consumer-movie-feign" />
+        <module name="file-upload" />
+        <module name="provider-user" />
+        <module name="discovery-eureka-ha" />
+        <module name="provider-user-nologin" />
+        <module name="discovery-eureka" />
+        <module name="hystrix-turbine" />
+        <module name="gateway-zuul" />
+        <module name="consumer-movie-ribbon-without-eureka" />
+        <module name="consumer-movie-ribbon" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="consumer-movie" target="1.8" />
+      <module name="consumer-movie-feign" target="1.8" />
+      <module name="consumer-movie-ribbon" target="1.8" />
+      <module name="consumer-movie-ribbon-without-eureka" target="1.8" />
+      <module name="discovery-eureka" target="1.8" />
+      <module name="discovery-eureka-ha" target="1.8" />
+      <module name="file-upload" target="1.8" />
+      <module name="gateway-zuul" target="1.8" />
+      <module name="hystrix-turbine" target="1.8" />
+      <module name="provider-user" target="1.8" />
+      <module name="provider-user-nologin" target="1.8" />
+      <module name="spring-cloud-demo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="consumer-movie" options="" />
+      <module name="discovery-eureka" options="" />
+      <module name="file-upload" options="" />
+      <module name="gateway-zuul" options="" />
+      <module name="hystrix-turbine" options="" />
+      <module name="provider-user" options="" />
+      <module name="spring-cloud-demo" options="-parameters" />
+    </option>
+  </component>
+</project>
